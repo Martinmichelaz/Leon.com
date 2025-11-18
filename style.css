@@ -598,7 +598,7 @@ footer span{
   }
 
   .p-and-i{
-    width: 100%;
+    width: auto;
     background-color: transparent;
     margin: 30px auto;
   }
@@ -617,4 +617,8 @@ footer span{
   .con3 col p{
     text-align: center;
   }
+}
+.con6 .p-and-i {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
