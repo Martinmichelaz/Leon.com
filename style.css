@@ -96,6 +96,7 @@ nav::after{
 .shape:hover ~ nav,
 .shape:hover ~ nav::after{
   transition: opacity 0.3s linear;
+  opacity: 1;
 }
 
 .shape:hover ~ nav a{
@@ -573,7 +574,7 @@ nav::after{
 }
 
 footer{
-  padding-top: 20px 0 ;
+  padding: 20px 0 ;
   background-color: #001e3b;
   display: flex;
   justify-content: center;
