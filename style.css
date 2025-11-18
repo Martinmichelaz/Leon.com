@@ -52,7 +52,7 @@ nav{
   width: 150px;
   height: 150px;
   z-index: 5;
-  visibility: hidden;
+  display: none
 }
 
 nav::after{
@@ -69,6 +69,8 @@ nav::after{
 .shape:hover ~ nav,
 .shape:hover ~ nav::after{
   visibility: visible;
+  display: block
+
   z-index: 20;
 }
 
