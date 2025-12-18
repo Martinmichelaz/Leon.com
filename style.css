@@ -99,7 +99,7 @@ nav::after{
   opacity: 1;
 }
 
-.shape:hover ~ nav a{
+a:hover{
   padding-left: 20px;
 }
 
