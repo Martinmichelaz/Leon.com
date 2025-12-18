@@ -550,7 +550,7 @@ a:hover{
 
 .p-and-i{
   background-color: transparent;
-  width: 50%;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -598,7 +598,7 @@ footer span{
   }
 
   .p-and-i{
-    width: auto;
+    width: fit-content;
     background-color: transparent;
     margin: 30px auto;
   }
